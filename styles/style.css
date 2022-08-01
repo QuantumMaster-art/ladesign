@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
+	color: #3d3d3d;
 }
 
 .header {
@@ -127,4 +128,76 @@ body {
 
 .header__arrow {
 	text-align: center;
+}
+
+.our-team {
+	padding: 36px;
+}
+
+.our-team__arrow {
+	margin-bottom: 84px;
+}
+
+.our-team__arrow i {
+	display: block;
+	font-size: 12px;
+	padding: 8px 9px;
+	max-width: 30px;
+	max-height: 30px;
+	margin-left: auto;
+	border: 1px solid #D5D5D5;
+}
+
+.our-team__advantages {
+	flex-basis: 513px;
+}
+
+.our-team__title {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 47px;
+	margin-bottom: 50px;
+	color: #535353;
+}
+
+.our-team__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-team__subtitle {
+	color: #777777;
+	margin-bottom: 50px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.our-team__list {
+	border-top: 1px solid #D5D5D5;
+	text-transform: uppercase;
+}
+
+.our-team__list-item {
+	padding: 27px 0;
+	border-bottom: 1px solid #D5D5D5;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+	letter-spacing: 0.12em;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list--icon {
+	margin-left: auto;
+	font-size: 50px;
+}
+
+.adv-ico {
+	border: 1px solid #D5D5D5;
+	border-radius: 50%;
+	padding: 10px;
 }
